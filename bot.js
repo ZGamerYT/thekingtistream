@@ -11,7 +11,7 @@ client.on('message', message => {
   if (!message.content.startsWith(prefix)) return;
   var args = message.content.split(' ').slice(1);
   var argresult = args.join(' ');
-  if (message.author.id !== "445270049389805579") return;
+  if (message.author.id !== "541680405615476756") return;
 
   
   if (message.content.startsWith(prefix + 'setwatch')) {
